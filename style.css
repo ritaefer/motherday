@@ -1,0 +1,22 @@
+body{background-image:url(./22aed579f22bc9acf637015c6e6d67e3.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100vh;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;}
+.card { background-color: rgb(255, 246, 246);
+max-width: 400px; text-align: center; border-radius: 10px; font-family: "Tangerine", cursive;}
+
+.card-header {background-color: rgb(253 188 193); padding: 20px; border-top-left-radius: 10px;
+border-top-right-radius: 10px;font-family: "Tangerine", cursive;}
+
+.card-body {font-family: "Tangerine", cursive;}
+
+.card-footer {background-color: rgb(253 200 203); padding: 20px;font-family: "Tangerine", cursive;}
+
+.card-btn {font-family: "Tangerine", cursive;}
+
+
