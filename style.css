@@ -7,16 +7,18 @@ overflow: hidden;
 display: flex;
 justify-content: center;
 align-items: center;}
-.card { background-color: rgb(255, 246, 246);
+.card { background-color: rgb(255, 255, 255);
 max-width: 400px; text-align: center; border-radius: 10px; font-family: "Tangerine", cursive;}
 
-.card-header {background-color: rgb(253 188 193); padding: 20px; border-top-left-radius: 10px;
+.card-header {background-color: rgb(255, 223, 224); padding: 20px; border-top-left-radius: 10px;
 border-top-right-radius: 10px;font-family: "Tangerine", cursive;}
 
-.card-body {font-family: "Tangerine", cursive;}
+.card-body {font-family: "Tangerine", cursive; padding: 50px;}
 
-.card-footer {background-color: rgb(253 200 203); padding: 20px;font-family: "Tangerine", cursive;}
+.card-footer {background-color: rgb(255, 223, 224); padding: 20px;font-family: "Tangerine", cursive;}
 
-.card-btn {font-family: "Tangerine", cursive;}
-
+.card-btn {font-family: "Tangerine", cursive; color: #ff9dc6; background-color: rgb(255, 247, 252); border-radius: 10px; border: none; cursor: pointer; padding: 10px 15px; text-transform: uppercase; transition: all 1s;}
+.card-btn:hover{background: -webkit-linear-gradient(270deg, rgb(255, 193, 240) 24%, rgb(182, 82, 108));
+    background: -moz-linear-gradient(270deg, rgb(255, 193, 240) 24%, rgb(182, 82, 108));
+    background: linear-gradient(270deg, rgb(255, 193, 240) 24%, rgb(182, 82, 108)); color: #ffffff; box-shadow: 8px 10px 10px rgb(255, 174, 187); transform: scale(1.1);}
 
